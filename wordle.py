@@ -30,7 +30,7 @@ class Wordle:
         lineNum = random.randint(1, count)
         #print(lineNum)
         word = linecache.getline(r"wordbank.txt", lineNum)
-        print(word)
+        #print(word)
         return word
 
     """
